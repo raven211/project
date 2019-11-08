@@ -1,2 +1,7 @@
-print("This line will be printed.") Sth new
-
+int_list = [2, 3, 5, 7, 8, 3]
+same_int_list = int_list
+copy_int_list = int_list[:]
+int_list[2] = 'trzy'
+print(int_list)
+print(copy_int_list)
+print(same_int_list)
